@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
 .fields {
   max-width: 100vh;
   height: 100vh;
@@ -30,6 +36,9 @@
 
 .checkers {
   position: absolute;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
   width: 100%;
   height: 100%;
 }
@@ -57,9 +66,11 @@
 
 .blue-checker {
   float: left;
+  margin: 0;
   padding: calc(100% / 16);
   background: blue;
   border-radius: 50%;
+  font-size: 0;
 }
 
 .red-checker:nth-child(-n+4) {
