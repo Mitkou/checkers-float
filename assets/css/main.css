@@ -14,14 +14,18 @@
 
 .black-field {
   display: inline-block;
+  margin: 0;
   padding: calc(100% / 16);
   background: #000;
+  font-size: 0;
 }
 
 .white-field {
   display: inline-block;
+  margin: 0;
   padding: calc(100% / 16);
   background: #fff;
+  font-size: 0;
 }
 
 .checkers {
@@ -32,7 +36,9 @@
 
 .red-checkers {
   position: absolute;
+  margin: 0;
   top: 0;
+  font-size: 0;
 }
 
 .red-checker {
@@ -44,7 +50,9 @@
 
 .blue-checkers {
   position: absolute;
+  margin: 0;
   bottom: 0;
+  font-size: 0;
 }
 
 .blue-checker {
